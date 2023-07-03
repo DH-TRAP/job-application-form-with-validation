@@ -1,0 +1,93 @@
+*{
+  border-radius: 7px;
+}
+html{
+  font-size: 2vw;
+}
+.App {
+  text-align: right;
+  font-size: calc(10px + 1vmin);
+}
+
+.App-header, .form-section, .form-body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+}
+
+.App-header {
+  min-height: 10vh;
+  font-size: calc(10px + 2vmin);
+  background-color: #282c34;
+  color: white;
+}
+
+.form-section{
+  background-color: #2f773c2a;
+}
+
+.form-body{
+  gap: .75rem;
+  min-height: 90vh;
+  width: 100vw;
+}
+
+.form-body > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 5rem;
+  gap: .75rem;
+}
+
+input{
+  text-align: center;
+  max-height: 1rem;
+  outline-color: blue;
+}
+
+#nameField{
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+#fName, #lName{
+  max-width: 13.5rem;
+  max-height: 2rem;
+  margin: .05rem;
+  border-width: 2px;
+}
+
+#date, #age, #numericSalary{
+  max-width: 15.5rem;
+  max-height: 3rem;
+}
+
+input[type='range']{
+  min-width: 9.5rem;
+}
+
+input[type='file']{
+  border-radius: 0;
+  max-width: 35rem;
+  max-height: 5rem;
+}
+
+.labels{
+  margin-bottom: 5.5rem;
+}
+
+button[type='submit']{
+  margin-top: 2rem;
+  border: none;
+  min-height: 1rem;
+  color: white;
+  background-color: green;
+}
+button[type='reset']{
+  border: none;
+  min-height: 1rem;
+  color: white;
+  background-color: rgb(173, 0, 0);
+}
