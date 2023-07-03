@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/job-application-form-with-validation/static/css/main.f090938a.css",
+    "main.js": "/job-application-form-with-validation/static/js/main.648e6079.js",
+    "static/js/787.fd099703.chunk.js": "/job-application-form-with-validation/static/js/787.fd099703.chunk.js",
+    "index.html": "/job-application-form-with-validation/index.html",
+    "main.f090938a.css.map": "/job-application-form-with-validation/static/css/main.f090938a.css.map",
+    "main.648e6079.js.map": "/job-application-form-with-validation/static/js/main.648e6079.js.map",
+    "787.fd099703.chunk.js.map": "/job-application-form-with-validation/static/js/787.fd099703.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f090938a.css",
+    "static/js/main.648e6079.js"
+  ]
+}
